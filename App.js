@@ -56,6 +56,7 @@ export default function App() {
                   dropDownDirection="BOTTOM"
                   dropDownContainerStyle={{
                      backgroundColor: "yellow",
+                     alignSelf: "center",
                      zIndex: 5000,
                      position: "absolute",
                   }}
