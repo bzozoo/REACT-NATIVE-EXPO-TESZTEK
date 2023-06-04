@@ -50,14 +50,14 @@ export default function App() {
                   setItems={setItems}
                   containerStyle={{
                      padding: 10,
-                     backgroundColor: "red",
                      position: "relative",
+                     zIndex: 10,
                   }}
                   dropDownDirection="BOTTOM"
                   dropDownContainerStyle={{
                      backgroundColor: "yellow",
-                     zIndex: 5000,
-                     position: "absolute",
+                     alignSelf: "center",
+                     top: 60,
                   }}
                   listMode="SCROLLVIEW"
                />
